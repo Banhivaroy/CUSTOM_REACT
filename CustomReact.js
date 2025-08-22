@@ -14,7 +14,7 @@ for (const key in element.props) {
     if(key === 'children') continue;
     domele.setAttribute(key,element.props.props.key)
 }
-mainContainer.appendChild(domele);
+mainContainer.appendChild(domele); // appends the configured child(element) into the mainContainer
 
 
 
