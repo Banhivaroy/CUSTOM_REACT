@@ -16,8 +16,6 @@ for (const key in element.props) {
 }
 mainContainer.appendChild(domele); // appends the configured child(element) into the mainContainer
 
-
-
 const element = { // it creates an <a></a> tag in this js file since it is linked with the html file it will be showed in the webPage
     type: 'a',
     props:{
